@@ -78,8 +78,8 @@ transformtest = transforms.Compose([
     transforms.Normalize((0.5, ), (0.5, ))
 ])
 
-train_data = datasets.ImageFolder('synthetic-digits/synthetic_digits/imgs_train', transform=transformtrain)
-test_data = datasets.ImageFolder('synthetic-digits/synthetic_digits/imgs_valid', transform=transformtest)
+train_data = datasets.ImageFolder('synthetic_digits/synthetic_digits/imgs_train', transform=transformtrain)
+test_data = datasets.ImageFolder('synthetic_digits/synthetic_digits/imgs_valid', transform=transformtest)
 
 test_loader = DataLoader(test_data, batch_size=64, shuffle=False)
 
