@@ -1,5 +1,5 @@
 # ResilientDistributedMTL
-Code for NeurIPS 2020 paper "Byzantine Resilient Distributed Multi-Task Learning"
+Code for NeurIPS 2020 paper [Byzantine Resilient Distributed Multi-Task Learning](https://arxiv.org/pdf/2010.13032.pdf)
 
 ### Background
 
